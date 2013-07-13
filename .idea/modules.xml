@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea_modules/networkCreativ.iml" filepath="$PROJECT_DIR$/.idea_modules/networkCreativ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/networkCreativ-build.iml" filepath="$PROJECT_DIR$/.idea_modules/networkCreativ-build.iml" />
     </modules>
   </component>
 </project>

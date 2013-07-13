@@ -1,7 +1,10 @@
-@(message: String)
+@(form: play.api.data.Form[String])
 
-@main("Welcome to Play 2.1") {
-    
-    @play20.welcome(message)
-    
+@main("Welcome to Play 2.0") {
+
+    @helper.form(action = routes.Application.addBar) {
+        @helper.inputText(form("name"))
+        <input type="submit"/>
+    }
+
 }
